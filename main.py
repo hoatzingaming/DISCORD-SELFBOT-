@@ -33,9 +33,9 @@ class SELFBOT():
 with open('config.json') as f:
     config = json.load(f)
 
-token = config.get('token')
-password = config.get('password')
-prefix = config.get('prefix')
+token = config.get('"mfa.4S2P8duy6c6U0JLdJbzRAbXgd4p234JLI4Mwz1rzuVuTcbaNFybJBeEZQ_MNdwdxSOt4TTlSUH1Zpb2ToQCZ"')
+password = config.get('n')
+prefix = config.get('>')
 
 nitro_sniper = config.get('nitro_sniper')
 
